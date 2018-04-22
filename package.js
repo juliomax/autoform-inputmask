@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use('ecmascript');
   api.use('templating', 'client');
   api.use('underscore', 'client');
-  api.use('aldeed:autoform@5.8.1');
+  api.use('aldeed:autoform@6.3.0');
   api.use('bigdsk:inputmask@3.1.0');
   api.use('momentjs:moment@2.14.4');
   api.addFiles('autoform-inputmask.js', 'client');
